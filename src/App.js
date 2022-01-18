@@ -1,14 +1,19 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'materialize-css';
 import { Navbar, Icon, NavItem } from 'react-materialize';
 import LoadingScreen from './LoadingScreen.js';
 import './App.css';
+import Home from './Pages/Home.js';
+import SignIn from './Pages/SignIn.js';
+import Cart from './Pages/Cart.js';
+import ErrorPage from './Pages/ErrorPage/ErrorPage.js';
 
 function App() {
 	const [LoadingScreenPlaceholder, setLoadingScreenPlaceholder] = useState(
 		<LoadingScreen />
 	);
+
 	setTimeout(() => {
 		setLoadingScreenPlaceholder(
 			<Router>
@@ -39,9 +44,10 @@ function App() {
 					<NavItem href="">Sign In</NavItem>
 				</Navbar>
 				<Routes>
-					<Route path="/" />
-					<Route path="/" />
-					<Route path="/" />
+					<Route path="/" element={<Home />} />
+					<Route path="/signin" element={<SignIn />} />
+					<Route path="/cart" element={<Cart />} />
+					<Route path="*" element={<ErrorPage />} />
 				</Routes>
 			</Router>
 		);
