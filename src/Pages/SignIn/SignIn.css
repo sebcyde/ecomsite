@@ -1,0 +1,29 @@
+.SignInPage {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid gold;
+}
+.SignInPage .SignInTitle {
+  font-size: 2em;
+}
+.SignInPage .SignInContainer {
+  width: 40%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 2em;
+  border: 2px solid gold;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px;
+}
+.SignInPage .SignInContainer div.input-field {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}/*# sourceMappingURL=SignIn.css.map */

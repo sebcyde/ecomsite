@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import 'materialize-css';
 import { Navbar, Icon, NavItem } from 'react-materialize';
 import LoadingScreen from './LoadingScreen.js';
 import './App.css';
-import Home from './Pages/Home.js';
-import SignIn from './Pages/SignIn.js';
-import Cart from './Pages/Cart.js';
+import Home from './Pages/Home/Home.js';
+import SignIn from './Pages/SignIn/SignIn.js';
+import Cart from './Pages/Cart/Cart.js';
 import ErrorPage from './Pages/ErrorPage/ErrorPage.js';
 
 function App() {
@@ -39,9 +39,15 @@ function App() {
 						preventScrolling: true,
 					}}
 				>
-					<NavItem href="">Products</NavItem>
-					<NavItem href="components.html">Cart</NavItem>
-					<NavItem href="">Sign In</NavItem>
+					<NavItem href="">
+						<Link to="/products">Products</Link>
+					</NavItem>
+					<NavItem href="">
+						<Link to="/cart">Cart</Link>
+					</NavItem>
+					<NavItem href="">
+						<Link to="/signin">Sign In</Link>
+					</NavItem>
 				</Navbar>
 				<Routes>
 					<Route path="/" element={<Home />} />
@@ -51,7 +57,7 @@ function App() {
 				</Routes>
 			</Router>
 		);
-	}, 3000);
+	}, 2000);
 
 	return <div className="App">{LoadingScreenPlaceholder}</div>;
 }
