@@ -1,0 +1,17 @@
+.App {
+	font-family: 'Parisienne', cursive;
+}
+
+.TopLevelNav {
+	background-color: black;
+}
+
+@media (min-width: 993px) {
+	.TopLevelNav {
+		padding-left: 1em;
+	}
+}
+
+.TopLevelNav a {
+	color: gold;
+}
