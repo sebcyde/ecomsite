@@ -21,14 +21,60 @@
   height: -moz-fit-content;
   height: fit-content;
   padding-bottom: 2em;
-  border: 1px solid rgba(136, 116, 0, 0.474);
   border-radius: 15px;
-  box-shadow: 1px 1px 3px;
 }
 .SignInPage .SignInContainer div.input-field {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+.SignInPage .SignInContainer .btn {
+  margin-top: 2em;
+  height: 35px;
+  background-color: gold;
+  box-shadow: 2px 2px 3px black;
+  color: black;
+  font-family: "Mohave", sans-serif;
+  letter-spacing: 1px;
+}
+.SignInPage .SignInContainer .btn:hover {
+  background-color: #ffe75f;
+  box-shadow: 3px 3px 3px black;
+}
+@media (min-width: 1086px) {
+  .SignInPage .SignInTitle {
+    font-size: 2em;
+    font-weight: 300;
+    text-shadow: 3px 3px 6px black;
+  }
+  .SignInPage .SignInContainer {
+    width: 400px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-bottom: 2em;
+    border: 1px solid rgba(136, 116, 0, 0.474);
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px black;
+  }
+  .SignInPage .SignInContainer div.input-field {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .SignInPage .SignInContainer .btn {
+    margin-top: 2em;
+    height: 35px;
+    background-color: gold;
+    box-shadow: 2px 2px 3px black;
+    color: black;
+    font-family: "Mohave", sans-serif;
+    letter-spacing: 1px;
+  }
+  .SignInPage .SignInContainer .btn:hover {
+    background-color: #ffe75f;
+    box-shadow: 3px 3px 3px black;
+  }
 }
 @media (max-width: 767px) {
   .SignInPage .SignInContainer {
@@ -46,6 +92,19 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+  }
+  .SignInPage .SignInContainer .btn {
+    margin-top: 1em;
+    height: 35px;
+    background-color: gold;
+    box-shadow: 2px 2px 3px black;
+    color: black;
+    font-family: "Mohave", sans-serif;
+    letter-spacing: 1px;
+  }
+  .SignInPage .SignInContainer .btn:hover {
+    background-color: #ffe75f;
+    box-shadow: 3px 3px 3px black;
   }
 }
 @media (max-width: 505px) {

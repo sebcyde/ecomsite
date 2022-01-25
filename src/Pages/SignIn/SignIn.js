@@ -21,8 +21,8 @@ function SignIn() {
 						className="SignInPagePasswordInput"
 					/>
 					<Button node="button" type="submit" waves="light">
-						Submit
-						<Icon right>send</Icon>
+						Log In
+						<Icon right>login</Icon>
 					</Button>
 				</form>
 			</div>
