@@ -1,12 +1,15 @@
 import React from 'react';
 import './LoadingScreen.css';
-import Icon from './Assets/wallstreetbets.png';
+import { Row, Col, ProgressBar } from 'react-materialize';
 
 function LoadingScreen() {
 	return (
 		<div className="LoadingScreenContainer">
-			<img src={Icon} className="LoadingScreenIcon" />
-			<h1 className="LoadingScreenTagline">Loading Gains</h1>
+			<Row>
+				<Col s={12}>
+					<ProgressBar />
+				</Col>
+			</Row>
 		</div>
 	);
 }

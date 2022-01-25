@@ -1,4 +1,4 @@
-1. change mobile version menu to hamburger icon
+1. make loadscreen only show on page refresh, not react reload
 
 2. finish styling Sign In Page
 

@@ -6,25 +6,20 @@
   justify-content: center;
   text-align: center;
 }
-
-.LoadingScreenIcon {
-  width: 100px;
+.LoadingScreenContainer .row {
+  width: 40%;
+  height: 10%;
   margin-left: auto;
   margin-right: auto;
-  -webkit-animation: spin 4s linear infinite;
-  animation: spin 4s linear infinite;
 }
-
-.LoadingScreenTagline {
-  font-size: 2em;
+.LoadingScreenContainer .row .col {
+  height: 100%;
 }
-@-webkit-keyframes spin {
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
+.LoadingScreenContainer .row .col .progress {
+  background-color: #5a5a5a;
+  box-shadow: 3px 3px 6px black;
+  height: 5px;
 }
-@keyframes spin {
-  100% {
-    transform: rotate(360deg);
-  }
+.LoadingScreenContainer .row .col .progress .indeterminate {
+  background-color: gold;
 }/*# sourceMappingURL=LoadingScreen.css.map */
