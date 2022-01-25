@@ -21,9 +21,9 @@ function App() {
 					className="TopLevelNav"
 					alignLinks="right"
 					brand={
-						<a className="brand-logo" href="#">
+						<Link to="/" className="brand-logo">
 							Minted Prints
-						</a>
+						</Link>
 					}
 					id="mobile-nav"
 					menuIcon={<Icon>menu</Icon>}
