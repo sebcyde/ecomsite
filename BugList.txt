@@ -6,6 +6,6 @@
 
 4. Change Navbar 'Sign in' logo when user is signed in 
 
-5. 
+5. mobile version - off canvas auto closes on open
 
 6. 

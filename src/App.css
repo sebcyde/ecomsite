@@ -22,3 +22,9 @@ a.brand-logo {
 	font-size: 2.5em !important;
 	font-family: 'Parisienne', cursive;
 }
+
+@media (max-width: 505px) {
+	a.brand-logo {
+		display: none;
+	}
+}
