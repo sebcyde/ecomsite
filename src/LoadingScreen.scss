@@ -27,18 +27,11 @@
 	}
 }
 
-// .LoadingScreenIcon {
-// 	width: 100px;
-// 	margin-left: auto;
-// 	margin-right: auto;
-// 	-webkit-animation: spin 4s linear infinite;
-// 	-moz-animation: spin 4s linear infinite;
-// 	animation: spin 4s linear infinite;
-// }
-
-// .LoadingScreenTagline {
-// 	font-size: 2em;
-// }
+.LoadingScreenTagline {
+	font-size: 2em;
+	color: gold;
+	text-shadow: 3px 3px 6px black;
+}
 
 // @-moz-keyframes spin {
 // 	100% {

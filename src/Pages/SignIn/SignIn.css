@@ -13,6 +13,7 @@
 .SignInPage .SignInTitle {
   font-size: 2em;
   font-weight: 300;
+  text-shadow: 3px 3px 6px black;
 }
 .SignInPage .SignInContainer {
   width: 40%;
@@ -39,6 +40,7 @@
     border: 1px solid rgba(136, 116, 0, 0.474);
     border-radius: 15px;
     box-shadow: 1px 1px 2px;
+    text-shadow: 3px 3px 6px black;
   }
   .SignInPage .SignInContainer div.input-field {
     width: 80%;
@@ -56,6 +58,7 @@
     border: 1px solid rgba(136, 116, 0, 0.474);
     border-radius: 15px;
     box-shadow: 1px 1px 2px;
+    text-shadow: 3px 3px 6px black;
   }
   .SignInPage .SignInContainer div.input-field {
     width: 80%;

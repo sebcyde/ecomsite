@@ -59,12 +59,7 @@ function App() {
 		);
 	}, 2000);
 
-	return (
-		<div className="App">
-			{/* {LoadingScreenPlaceholder} */}
-			<LoadingScreen />
-		</div>
-	);
+	return <div className="App">{LoadingScreenPlaceholder}</div>;
 }
 
 export default App;

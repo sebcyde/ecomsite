@@ -22,4 +22,10 @@
 }
 .LoadingScreenContainer .row .col .progress .indeterminate {
   background-color: gold;
+}
+
+.LoadingScreenTagline {
+  font-size: 2em;
+  color: gold;
+  text-shadow: 3px 3px 6px black;
 }/*# sourceMappingURL=LoadingScreen.css.map */
