@@ -8,9 +8,11 @@
   align-items: center;
   text-align: center;
   border-top: 1px solid #887400;
+  color: gold;
 }
 .SignInPage .SignInTitle {
   font-size: 2em;
+  font-weight: 300;
 }
 .SignInPage .SignInContainer {
   width: 40%;
@@ -18,9 +20,9 @@
   height: -moz-fit-content;
   height: fit-content;
   padding-bottom: 2em;
-  border: 1px solid #887400;
-  border-radius: 20px;
-  box-shadow: 3px 3px 5px;
+  border: 1px solid rgba(136, 116, 0, 0.474);
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px;
 }
 .SignInPage .SignInContainer div.input-field {
   width: 80%;
@@ -34,9 +36,9 @@
     height: -moz-fit-content;
     height: fit-content;
     padding-bottom: 2em;
-    border: 2px solid gold;
-    border-radius: 20px;
-    box-shadow: 3px 3px 5px;
+    border: 1px solid rgba(136, 116, 0, 0.474);
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px;
   }
   .SignInPage .SignInContainer div.input-field {
     width: 80%;
@@ -51,9 +53,9 @@
     height: -moz-fit-content;
     height: fit-content;
     padding-bottom: 2em;
-    border: 2px solid gold;
-    border-radius: 20px;
-    box-shadow: 3px 3px 5px;
+    border: 1px solid rgba(136, 116, 0, 0.474);
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px;
   }
   .SignInPage .SignInContainer div.input-field {
     width: 80%;
