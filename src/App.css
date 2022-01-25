@@ -15,4 +15,10 @@
 
 .TopLevelNav a {
 	color: gold;
+	font-size: large;
+}
+
+a.brand-logo {
+	font-size: 2.5em !important;
+	font-family: 'Parisienne', cursive;
 }

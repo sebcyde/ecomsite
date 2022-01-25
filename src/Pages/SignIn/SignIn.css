@@ -26,4 +26,38 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+}
+@media (max-width: 767px) {
+  .SignInPage .SignInContainer {
+    width: 55%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-bottom: 2em;
+    border: 2px solid gold;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px;
+  }
+  .SignInPage .SignInContainer div.input-field {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 505px) {
+  .SignInPage .SignInContainer {
+    width: 65%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-bottom: 2em;
+    border: 2px solid gold;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px;
+  }
+  .SignInPage .SignInContainer div.input-field {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }/*# sourceMappingURL=SignIn.css.map */
