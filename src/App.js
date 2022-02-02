@@ -28,7 +28,7 @@ function App() {
 					id="mobile-nav"
 					menuIcon={<Icon>menu</Icon>}
 					options={{
-						draggable: true,
+						draggable: false,
 						edge: 'left',
 						inDuration: 250,
 						onCloseEnd: null,
@@ -39,15 +39,11 @@ function App() {
 						preventScrolling: true,
 					}}
 				>
-					<NavItem href="">
-						<Link to="/products">Products</Link>
-					</NavItem>
-					<NavItem href="">
-						<Link to="/cart">Cart</Link>
-					</NavItem>
-					<NavItem href="">
-						<Link to="/signin">Sign In</Link>
-					</NavItem>
+					<Link to="/products">Products</Link>
+
+					<Link to="/cart">Cart</Link>
+
+					<Link to="/signin">Sign In</Link>
 				</Navbar>
 				<Routes>
 					<Route path="/" element={<Home />} />

@@ -3,13 +3,28 @@
 	height: 100%;
 }
 
-.TopLevelNav {
+.TopLevelNav,
+.BottomLevelNav {
 	background-color: black;
+}
+
+/* .BottomLevelNav {
+	height: fit-content;
+} */
+
+.BottomLevelNav ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
 }
 
 @media (min-width: 993px) {
 	.TopLevelNav {
 		padding-left: 1em;
+	}
+	#mobile-nav {
+		display: none;
 	}
 }
 
@@ -18,7 +33,13 @@
 	font-size: large;
 }
 
-.TopLevelNav a:hover {
+.BottomLevelNav a {
+	color: gold;
+	font-size: medium;
+}
+
+.TopLevelNav a:hover,
+.BottomLevelNav a:hover {
 	color: rgb(255, 233, 110);
 	text-decoration: underline rgb(255, 233, 110);
 }
@@ -35,6 +56,9 @@ a.brand-logo:hover {
 
 @media (max-width: 505px) {
 	a.brand-logo {
+		display: none;
+	}
+	.BottomLevelNav {
 		display: none;
 	}
 }
