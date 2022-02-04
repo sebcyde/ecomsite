@@ -1,0 +1,24 @@
+.SecondaryNavContainer {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+}
+.SecondaryNavContainer .SecondaryNavListContainer {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 2em;
+}
+.SecondaryNavContainer .SecondaryNavListContainer a {
+  color: gold;
+}
+.SecondaryNavContainer .SecondaryNavListContainer a:hover {
+  color: #ffe96e;
+  -webkit-text-decoration: underline #ffe96e;
+          text-decoration: underline #ffe96e;
+}/*# sourceMappingURL=SecondaryNav.css.map */

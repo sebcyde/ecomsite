@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { Navbar, Icon, NavItem } from 'react-materialize';
 import './Home.css';
+import SecondaryNav from './SecondaryNav/SecondaryNav';
 
 function Home() {
 	return (
@@ -12,6 +13,7 @@ function Home() {
 					code MINTED10. Offer valid until 10th February 2022.
 				</div>
 			</div>
+			<SecondaryNav />
 			Home
 		</div>
 	);

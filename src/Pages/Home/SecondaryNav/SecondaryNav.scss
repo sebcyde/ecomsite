@@ -1,0 +1,21 @@
+.SecondaryNavContainer {
+	height: fit-content;
+	width: 100%;
+
+	.SecondaryNavListContainer {
+		height: fit-content;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		font-size: 2em;
+
+		a {
+			color: gold;
+		}
+		a:hover {
+			color: rgb(255, 233, 110);
+			text-decoration: underline rgb(255, 233, 110);
+		}
+	}
+}
