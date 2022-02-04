@@ -1,6 +1,24 @@
-#Carousel-31.carousel {
-	height: 300px;
-	width: 100%;
-	z-index: 11 !important;
-	overflow: visible;
+.HomepageCarouselContainer {
+	height: auto;
+
+	#Carousel-31.carousel {
+		height: 400px;
+		width: 100vw;
+		z-index: 11 !important;
+		display: flex;
+		justify-content: center;
+		overflow-x: hidden;
+		overflow-y: visible;
+
+		a {
+			width: fit-content;
+			height: fit-content;
+			overflow-y: visible;
+		}
+
+		img {
+			width: 75vw;
+			height: auto;
+		}
+	}
 }

@@ -8,21 +8,21 @@ function HomepageCarousel() {
 			<Carousel
 				carouselId="Carousel-31"
 				images={[
-					'https://courtauld.ac.uk/wp-content/uploads/2021/06/Vincent-van-Gogh-1853%E2%80%931890-Self-Portrait-with-Straw-Hat-1887-The-Detroit-Institute-of-Arts-Bridgeman-Images.png',
-					'https://www.history.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc4NTk4NjgxNjM0NTI3/hith-art-heists-scream-2.jpg',
-					'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu8GRaleWpjyyzrl6d66GOKwkUKvJ5gl4TMg&usqp=CAU',
-					'https://www.leeds-art.ac.uk/media/1487534/emerson-pullman-fleeting-2020.jpg?width=750;height=870',
-					'https://www.whitworth.manchester.ac.uk/NFT_detail-homepage-onethird.jpg',
+					'https://cdn.shopify.com/s/files/1/0393/4303/0317/files/AR_desktop_slider_template_png24_1000x.png?v=1642009935',
+					'https://cdn.shopify.com/s/files/1/0393/4303/0317/files/Website_banners_LL_eae9e9a9-a3d0-4095-a9f9-c88480561813_1000x.png?v=1643388839',
+					'https://cdn.shopify.com/s/files/1/0393/4303/0317/files/12_1000x.png?v=1643627738',
+					'https://cdn.shopify.com/s/files/1/0393/4303/0317/files/Website_banner_Agent_X_1000x.png?v=1643897335',
+					'https://cdn.shopify.com/s/files/1/0393/4303/0317/files/10_1000x.png?v=1643627525',
 				]}
 				options={{
-					dist: -100,
+					dist: -200,
 					duration: 200,
 					fullWidth: false,
 					indicators: false,
 					noWrap: false,
-					numVisible: 5,
+					numVisible: 3,
 					onCycleTo: null,
-					padding: 0,
+					padding: 100,
 					shift: 0,
 				}}
 			/>

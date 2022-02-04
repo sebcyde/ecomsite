@@ -8,4 +8,4 @@
 
 5. mobile version - off canvas auto closes on open
 
-6. 
+6. Carousel height isnt responsive
