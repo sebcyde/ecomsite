@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-materialize';
+import './HomepageCarousel.css';
 
 function HomepageCarousel() {
 	return (
@@ -17,7 +18,7 @@ function HomepageCarousel() {
 					dist: -100,
 					duration: 200,
 					fullWidth: false,
-					indicators: true,
+					indicators: false,
 					noWrap: false,
 					numVisible: 5,
 					onCycleTo: null,
