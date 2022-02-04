@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { Navbar, Icon, NavItem } from 'react-materialize';
 import './Home.css';
+import HomepageCarousel from './HomepageCarousel/HomepageCarousel';
 import SecondaryNav from './SecondaryNav/SecondaryNav';
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
 				</div>
 			</div>
 			<SecondaryNav />
+			<HomepageCarousel />
 			Home
 		</div>
 	);
