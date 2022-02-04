@@ -15,7 +15,7 @@ function HomepageCarousel() {
 				]}
 				options={{
 					dist: -100,
-					// duration: 200,
+					duration: 200,
 					fullWidth: false,
 					indicators: true,
 					noWrap: false,

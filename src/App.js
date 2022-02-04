@@ -10,52 +10,52 @@ import Cart from './Pages/Cart/Cart.js';
 import ErrorPage from './Pages/ErrorPage/ErrorPage.js';
 
 function App() {
-	const [LoadingScreenPlaceholder, setLoadingScreenPlaceholder] = useState(
-		<LoadingScreen />
+	// const [LoadingScreenPlaceholder, setLoadingScreenPlaceholder] = useState(
+	// 	<LoadingScreen />
+	// );
+
+	return (
+		<div className="App">
+			{
+				<Router>
+					<Navbar
+						className="TopLevelNav"
+						alignLinks="right"
+						brand={
+							<Link to="/" className="brand-logo">
+								Minted Prints
+							</Link>
+						}
+						id="mobile-nav"
+						menuIcon={<Icon>menu</Icon>}
+						options={{
+							draggable: false,
+							edge: 'left',
+							inDuration: 250,
+							onCloseEnd: null,
+							onCloseStart: null,
+							onOpenEnd: null,
+							onOpenStart: null,
+							outDuration: 200,
+							preventScrolling: true,
+						}}
+					>
+						<Link to="/products">Products</Link>
+
+						<Link to="/cart">Cart</Link>
+
+						<Link to="/signin">Sign In</Link>
+					</Navbar>
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/signin" element={<SignIn />} />
+						<Route path="/cart" element={<Cart />} />
+						<Route path="*" element={<ErrorPage />} />
+					</Routes>
+				</Router>
+			}
+		</div>
 	);
-
-	setTimeout(() => {
-		setLoadingScreenPlaceholder(
-			<Router>
-				<Navbar
-					className="TopLevelNav"
-					alignLinks="right"
-					brand={
-						<Link to="/" className="brand-logo">
-							Minted Prints
-						</Link>
-					}
-					id="mobile-nav"
-					menuIcon={<Icon>menu</Icon>}
-					options={{
-						draggable: false,
-						edge: 'left',
-						inDuration: 250,
-						onCloseEnd: null,
-						onCloseStart: null,
-						onOpenEnd: null,
-						onOpenStart: null,
-						outDuration: 200,
-						preventScrolling: true,
-					}}
-				>
-					<Link to="/products">Products</Link>
-
-					<Link to="/cart">Cart</Link>
-
-					<Link to="/signin">Sign In</Link>
-				</Navbar>
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/signin" element={<SignIn />} />
-					<Route path="/cart" element={<Cart />} />
-					<Route path="*" element={<ErrorPage />} />
-				</Routes>
-			</Router>
-		);
-	}, 2000);
-
-	return <div className="App">{LoadingScreenPlaceholder}</div>;
 }
 
 export default App;
