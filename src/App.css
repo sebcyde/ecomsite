@@ -5,18 +5,8 @@
 
 .TopLevelNav {
 	background-color: black;
-	z-index: 11 !important;
-}
 
-/* .BottomLevelNav {
-	height: fit-content;
-} */
-
-.BottomLevelNav ul {
-	width: 100%;
-	display: flex;
-	justify-content: space-evenly;
-	text-align: center;
+	z-index: 11;
 }
 
 @media (min-width: 993px) {
@@ -33,13 +23,7 @@
 	font-size: large;
 }
 
-.BottomLevelNav a {
-	color: gold;
-	font-size: medium;
-}
-
-.TopLevelNav a:hover,
-.BottomLevelNav a:hover {
+.TopLevelNav a:hover {
 	color: rgb(255, 233, 110);
 	text-decoration: underline rgb(255, 233, 110);
 }
@@ -56,9 +40,6 @@ a.brand-logo:hover {
 
 @media (max-width: 505px) {
 	a.brand-logo {
-		display: none;
-	}
-	.BottomLevelNav {
 		display: none;
 	}
 }

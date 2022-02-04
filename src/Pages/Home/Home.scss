@@ -1,5 +1,4 @@
 .HomeContainer {
-	position: fixed;
 	width: 100%;
 	height: 100%;
 	top: 0px;
@@ -10,5 +9,65 @@
 	text-align: center;
 	border-top: 1px solid rgb(136, 116, 0);
 	margin: 0px;
-	z-index: 10 !important;
+	background: green;
+	z-index: 9;
+
+	#scroll-container {
+		width: 100%;
+		border-bottom: 1px solid gold;
+		overflow: hidden;
+		color: black;
+		height: fit-content;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		font-weight: 500;
+		font-size: large;
+		background: white;
+		font-family: 'Mohave', sans-serif;
+		z-index: 10;
+	}
+
+	#scroll-text {
+		/* animation properties */
+		-moz-transform: translateX(100%);
+		-webkit-transform: translateX(100%);
+		transform: translateX(100%);
+
+		-moz-animation: my-animation 25s linear infinite;
+		-webkit-animation: my-animation 25s linear infinite;
+		animation: my-animation 25s linear infinite;
+	}
+
+	/* for Firefox */
+	@-moz-keyframes my-animation {
+		from {
+			-moz-transform: translateX(100%);
+		}
+		to {
+			-moz-transform: translateX(-100%);
+		}
+	}
+
+	/* for Chrome */
+	@-webkit-keyframes my-animation {
+		from {
+			-webkit-transform: translateX(100%);
+		}
+		to {
+			-webkit-transform: translateX(-100%);
+		}
+	}
+
+	@keyframes my-animation {
+		from {
+			-moz-transform: translateX(100%);
+			-webkit-transform: translateX(100%);
+			transform: translateX(100%);
+		}
+		to {
+			-moz-transform: translateX(-100%);
+			-webkit-transform: translateX(-100%);
+			transform: translateX(-100%);
+		}
+	}
 }

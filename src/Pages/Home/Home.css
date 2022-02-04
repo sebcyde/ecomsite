@@ -1,5 +1,4 @@
 .HomeContainer {
-  position: fixed;
   width: 100%;
   height: 100%;
   top: 0px;
@@ -10,5 +9,46 @@
   text-align: center;
   border-top: 1px solid #887400;
   margin: 0px;
-  z-index: 10 !important;
+  background: green;
+  z-index: 9;
+  /* for Firefox */
+  /* for Chrome */
+}
+.HomeContainer #scroll-container {
+  width: 100%;
+  border-bottom: 1px solid gold;
+  overflow: hidden;
+  color: black;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-weight: 500;
+  font-size: large;
+  background: white;
+  font-family: "Mohave", sans-serif;
+  z-index: 10;
+}
+.HomeContainer #scroll-text {
+  /* animation properties */
+  transform: translateX(100%);
+  -webkit-animation: my-animation 25s linear infinite;
+  animation: my-animation 25s linear infinite;
+}
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+@keyframes my-animation {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }/*# sourceMappingURL=Home.css.map */
