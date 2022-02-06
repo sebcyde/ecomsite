@@ -67,6 +67,27 @@
     overflow-y: visible;
   }
   .HomepageCarouselContainer #Carousel-31.carousel img {
+    width: 40vw;
+    height: auto;
+  }
+}
+@media (min-width: 2000px) {
+  .HomepageCarouselContainer #Carousel-31.carousel {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .HomepageCarouselContainer #Carousel-31.carousel a {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    overflow-y: visible;
+  }
+  .HomepageCarouselContainer #Carousel-31.carousel img {
     width: 30vw;
     height: auto;
   }

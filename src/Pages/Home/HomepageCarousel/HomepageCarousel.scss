@@ -63,6 +63,28 @@
 			}
 
 			img {
+				width: 40vw;
+				height: auto;
+			}
+		}
+	}
+
+	@media (min-width: 2000px) {
+		#Carousel-31.carousel {
+			width: 100vw;
+			display: flex;
+			justify-content: center;
+			overflow: hidden;
+
+			// could be changed to hidden?
+
+			a {
+				width: fit-content;
+				height: fit-content;
+				overflow-y: visible;
+			}
+
+			img {
 				width: 30vw;
 				height: auto;
 			}
