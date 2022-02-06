@@ -1,5 +1,5 @@
 .HomepageCarouselContainer {
-	height: auto;
+	height: fit-content !important;
 	width: 100vw;
 
 	#Carousel-31.carousel {
@@ -26,8 +26,46 @@
 			display: none;
 		}
 	}
-	// @media (min-width: 1920px) {
-	// 	#Carousel-31.carousel {
-	// 	}
-	// }
+	@media (min-width: 1225px) {
+		#Carousel-31.carousel {
+			width: 100vw;
+			display: flex;
+			justify-content: center;
+			overflow-y: visible;
+
+			// could be changed to hidden?
+
+			a {
+				width: fit-content;
+				height: fit-content;
+				overflow-y: visible;
+			}
+
+			img {
+				width: 50vw;
+				height: auto;
+			}
+		}
+	}
+	@media (min-width: 1825px) {
+		#Carousel-31.carousel {
+			width: 100vw;
+			display: flex;
+			justify-content: center;
+			overflow: hidden;
+
+			// could be changed to hidden?
+
+			a {
+				width: fit-content;
+				height: fit-content;
+				overflow-y: visible;
+			}
+
+			img {
+				width: 30vw;
+				height: auto;
+			}
+		}
+	}
 }
