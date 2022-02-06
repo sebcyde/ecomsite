@@ -1,13 +1,12 @@
 .HomepageCarouselContainer {
 	height: auto;
+	width: 100vw;
 
 	#Carousel-31.carousel {
-		height: 400px;
 		width: 100vw;
 		z-index: 11 !important;
 		display: flex;
 		justify-content: center;
-		overflow-x: hidden;
 		overflow-y: visible;
 
 		a {
@@ -21,4 +20,14 @@
 			height: auto;
 		}
 	}
+
+	@media (max-width: 767px) {
+		#Carousel-31.carousel {
+			display: none;
+		}
+	}
+	// @media (min-width: 1920px) {
+	// 	#Carousel-31.carousel {
+	// 	}
+	// }
 }

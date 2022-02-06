@@ -21,7 +21,7 @@ function App() {
 					<div id="scroll-container">
 						<div id="scroll-text">
 							For a limited time only, you can get 10% off your ENTIRE order
-							with code MINTED10. Offer valid until 10th February 2022.
+							with code MINTED10. Offer valid until 10th February.
 						</div>
 					</div>
 					<Navbar
