@@ -3,7 +3,9 @@
 	width: 100%;
 	border: none;
 	padding: 0px;
+	margin: 0px;
 	top: 0px;
+	background: #f2e9e4;
 
 	.SecondaryNavListContainer {
 		height: fit-content;
@@ -13,13 +15,15 @@
 		justify-content: space-evenly;
 		font-size: 1.7em;
 		padding: 0px;
+		margin: 0px;
+		border-bottom: 1px solid #c9ada7;
 
 		a {
-			color: gold;
+			color: #22223b;
 		}
 		a:hover {
-			color: rgb(255, 233, 110);
-			text-decoration: underline rgb(255, 233, 110);
+			color: #4a4e69;
+			text-decoration: underline #4a4e69b3;
 		}
 
 		.dropdown-content {

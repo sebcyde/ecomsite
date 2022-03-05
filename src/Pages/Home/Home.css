@@ -10,9 +10,9 @@
   align-items: center;
   text-align: center;
   margin: 0px;
-  background: black;
+  background: #f2e9e4;
   z-index: 9;
-  color: white;
+  color: #22223b;
   border: none;
 }
 
@@ -29,9 +29,9 @@
     align-items: center;
     text-align: center;
     margin: 0px;
-    background: black;
+    background: #f2e9e4;
     z-index: 9;
-    color: white;
+    color: #22223b;
     border: none;
   }
 }/*# sourceMappingURL=Home.css.map */

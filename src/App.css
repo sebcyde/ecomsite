@@ -26,6 +26,7 @@
 .TopLevelNav a:hover {
 	color: #4a4e69;
 	text-decoration: underline #4a4e69;
+	background-color: #f2e9e4;
 }
 
 a.brand-logo {
@@ -35,7 +36,7 @@ a.brand-logo {
 
 a.brand-logo:hover {
 	color: #4a4e69;
-	text-decoration: underline #4a4e69;
+	text-decoration: none !important;
 }
 
 @media (max-width: 505px) {

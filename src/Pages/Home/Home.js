@@ -7,7 +7,6 @@ import SecondaryNav from './SecondaryNav/SecondaryNav';
 function Home() {
 	return (
 		<div className="HomeContainer">
-			<SecondaryNav />
 			<HomepageCarousel />
 			Home
 		</div>

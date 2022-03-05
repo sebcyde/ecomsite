@@ -8,6 +8,7 @@ import Home from './Pages/Home/Home.js';
 import SignIn from './Pages/SignIn/SignIn.js';
 import Cart from './Pages/Cart/Cart.js';
 import ErrorPage from './Pages/ErrorPage/ErrorPage.js';
+import SecondaryNav from './Pages/Home/SecondaryNav/SecondaryNav.js';
 
 function App() {
 	// const [LoadingScreenPlaceholder, setLoadingScreenPlaceholder] = useState(
@@ -52,6 +53,7 @@ function App() {
 
 						<Link to="/signin">Sign In</Link>
 					</Navbar>
+					<SecondaryNav />
 					<Routes>
 						<Route path="/" element={<Home />} />
 						<Route path="/signin" element={<SignIn />} />

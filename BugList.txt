@@ -8,3 +8,9 @@
 
 5. mobile version - off canvas auto closes on open
 
+
+Color List:
+
+Main Font: #22223b
+Hover Font: #4a4e69
+Backgrounds: #f2e9e4

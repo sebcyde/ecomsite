@@ -5,7 +5,9 @@
   width: 100%;
   border: none;
   padding: 0px;
+  margin: 0px;
   top: 0px;
+  background: #f2e9e4;
 }
 .SecondaryNavContainer .SecondaryNavListContainer {
   height: -webkit-fit-content;
@@ -17,14 +19,16 @@
   justify-content: space-evenly;
   font-size: 1.7em;
   padding: 0px;
+  margin: 0px;
+  border-bottom: 1px solid #c9ada7;
 }
 .SecondaryNavContainer .SecondaryNavListContainer a {
-  color: gold;
+  color: #22223b;
 }
 .SecondaryNavContainer .SecondaryNavListContainer a:hover {
-  color: #ffe96e;
-  -webkit-text-decoration: underline #ffe96e;
-          text-decoration: underline #ffe96e;
+  color: #4a4e69;
+  -webkit-text-decoration: underline #4a4e69b3;
+          text-decoration: underline #4a4e69b3;
 }
 .SecondaryNavContainer .SecondaryNavListContainer .dropdown-content {
   background-color: black;
