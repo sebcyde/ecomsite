@@ -4,7 +4,7 @@
 }
 
 .TopLevelNav {
-	background-color: black;
+	background-color: #f2e9e4;
 	z-index: 11;
 	border: none;
 }
@@ -19,13 +19,13 @@
 }
 
 .TopLevelNav a {
-	color: gold;
+	color: #22223b;
 	font-size: large;
 }
 
 .TopLevelNav a:hover {
-	color: rgb(255, 233, 110);
-	text-decoration: underline rgb(255, 233, 110);
+	color: #4a4e69;
+	text-decoration: underline #4a4e69;
 }
 
 a.brand-logo {
@@ -34,8 +34,8 @@ a.brand-logo {
 }
 
 a.brand-logo:hover {
-	color: rgb(255, 233, 110);
-	text-decoration: none !important;
+	color: #4a4e69;
+	text-decoration: underline #4a4e69;
 }
 
 @media (max-width: 505px) {
@@ -46,9 +46,9 @@ a.brand-logo:hover {
 
 #scroll-container {
 	width: 100%;
-	border-bottom: 1px solid gold;
+	border-bottom: 1px solid #c9ada7;
 	overflow: hidden;
-	color: black;
+	color: #22223b;
 	height: fit-content;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;

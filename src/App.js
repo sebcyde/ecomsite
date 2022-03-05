@@ -57,6 +57,10 @@ function App() {
 						<Route path="/signin" element={<SignIn />} />
 						<Route path="/cart" element={<Cart />} />
 						<Route path="*" element={<ErrorPage />} />
+						{/* <Route path="" element={} />
+						<Route path="" element={} />
+						<Route path="" element={} />
+						<Route path="" element={} /> */}
 					</Routes>
 				</Router>
 			}

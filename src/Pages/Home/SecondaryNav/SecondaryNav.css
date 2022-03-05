@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  font-size: 2em;
+  font-size: 1.7em;
   padding: 0px;
 }
 .SecondaryNavContainer .SecondaryNavListContainer a {
@@ -25,4 +25,51 @@
   color: #ffe96e;
   -webkit-text-decoration: underline #ffe96e;
           text-decoration: underline #ffe96e;
+}
+.SecondaryNavContainer .SecondaryNavListContainer .dropdown-content {
+  background-color: black;
+  border: 1px solid gold;
+  box-shadow: 3px 3px 5px black;
+  min-width: 100%;
+}
+.SecondaryNavContainer .SecondaryNavListContainer .GiftsDropdownLink {
+  display: flex;
+  flex-direction: row !important;
+}
+.SecondaryNavContainer .SecondaryNavListContainer .GiftsDropdownLink #Dropdown_10 {
+  display: flex;
+  flex-direction: row !important;
+}
+.SecondaryNavContainer .SecondaryNavListContainer .GiftsDropdownLink #Dropdown_10 .GiftsDropdownSectionOne {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.SecondaryNavContainer .SecondaryNavListContainer .GiftsDropdownLink #Dropdown_10 .GiftsDropdownSectionTwo {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.SecondaryNavContainer .SecondaryNavListContainer .GiftsDropdownLink #Dropdown_10 .GiftsDropdownSectionThree {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }/*# sourceMappingURL=SecondaryNav.css.map */
