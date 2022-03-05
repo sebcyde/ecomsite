@@ -1,15 +1,14 @@
 .HomepageCarouselContainer {
-  height: -webkit-fit-content !important;
-  height: -moz-fit-content !important;
-  height: fit-content !important;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 .HomepageCarouselContainer #Carousel-31.carousel {
-  width: 100vw;
+  width: 100%;
   z-index: 11 !important;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  overflow-y: visible;
+  align-content: center !important;
 }
 .HomepageCarouselContainer #Carousel-31.carousel a {
   width: -webkit-fit-content;
@@ -18,10 +17,9 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  overflow-y: visible;
 }
 .HomepageCarouselContainer #Carousel-31.carousel img {
-  width: 75vw;
+  width: 500px;
   height: auto;
 }
 @media (max-width: 767px) {

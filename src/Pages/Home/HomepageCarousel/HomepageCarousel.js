@@ -5,6 +5,7 @@ import './HomepageCarousel.css';
 function HomepageCarousel() {
 	return (
 		<div className="HomepageCarouselContainer">
+			hello
 			<Carousel
 				carouselId="Carousel-31"
 				images={[
@@ -22,7 +23,7 @@ function HomepageCarousel() {
 					noWrap: false,
 					numVisible: 3,
 					onCycleTo: null,
-					padding: 100,
+					padding: 0,
 					shift: 0,
 				}}
 			/>
